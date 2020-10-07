@@ -1,7 +1,7 @@
 Ian Weller
 ===
 
-> I am a software engineer with a focus in web applications, an interest in video game development, and a passion for creating new things.
+> Software engineer with a focus in web apps, an interest in game development, and a passion for creating new things.
 
 Contact
 ---
@@ -29,9 +29,9 @@ Languages:
 Feats:
 [
   "Started the software team with the intent of making daily tasks of other employees more efficient and effortless",
-  "Managed and developed multiple software projects that serve Imperial Systems employees and companies that work with Imperial Systems",
-  "Adopted and learned new technologies with the intent of self-improvement and ensured that other team members also had the freedom to do so",
-  "Assumed the role of systems and network administrator to improve the stability and security of Imperial Systems infrastructure",
+  "Managed and developed multiple software projects that serve Imperial Systems employees",
+  "Adopted and learned new technologies with the intent of self-improvement",
+  "Assumed the role of systems and network administrator",
   "Sponsored multiple college senior capstone projects",
 ]
 ```
@@ -52,7 +52,7 @@ Feats:
     "Appointed as project leader and developer for communication between embedded board and Windows application in C++",
     "Executed test plans for quality assurance for ISO 9001 standards for features and volume accumulation testing",
     "Worked with team and customers collaboratively to deliver solutions on time",
-    "Developed communication commands for interfacing with other proprietary processes in C++ in accordance with backwards compatibility requirements",
+    "Developed communication commands for interfacing with other proprietary processes in C++",
   ]
 ```
 
@@ -62,7 +62,7 @@ Projects
 ```yaml
 Name: "Quote Tool"
 Status: "In Production"
-Description: "An internal sales tool used for quoting complex industrial equipment to end users, sales representatives, and OEMs."
+Description: "An internal sales tool used for quoting complex industrial equipment to customers."
 Frontend: "Foundation"
 Backend: "Ruby on Rails"
 Database: "Postgresql"
@@ -87,7 +87,7 @@ Database: "mongodb"
 Platform: ""
 Feats:
   [
-    "Identity and Access Management (IAM) service for handling authorization and access of multiple companies and departments",
+    "Identity and Access Management service for handling authorization and access of multiple companies and departments",
     "Message broker for asynchronous and synchronous communication between services",
     "Gateway service as a single point of entry for frontend applications",
   ]
@@ -96,7 +96,7 @@ Feats:
 ```yaml
 Name: "Job Tracker"
 Status: "Decommissioned"
-Description: "Local web kiosk to provide a visual representation of the status and location of customer orders in manufacturing shop"
+Description: "Local web kiosk to provide a visual representation of the status of job orders in shop"
 Frontend: "Vanilla JS"
 Backend: "go"
 Database: "csv"
