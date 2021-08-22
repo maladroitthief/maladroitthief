@@ -13,7 +13,7 @@ Skills
 ---
 
 ```yaml
-languages_and_frameworks: "go, ruby, Ruby on Rails, Vue.js javascript, css, postgreSQL, MongoDB, powershell, python"
+languages_and_frameworks: "go, ruby, Ruby on Rails, Vue.js, javascript, css, postgreSQL, MongoDB, powershell, python"
 operating_systems: "Windows, Windows Server, Ubuntu, Ubuntu Server"
 tools: "git, docker, kubernetes, gRPC, ansible, vim, prometheus, grafana, heroku, active directory, group policy manager, hyper-v"
 workflow: "Kanban, Bullet Journal"
