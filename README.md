@@ -10,10 +10,45 @@ github: "https://github.com/maladroitthief"
 ## Skills
 
 ```yaml
-languages-and-frameworks: "go, ruby, Ruby on Rails, Vue.js, javascript, css, postgreSQL, MongoDB, powershell, python"
-operating-systems: "Ubuntu, Ubuntu Server, Fedora, Windows, Windows Server"
-tools: "git, docker, kubernetes, gRPC, ansible, vim, prometheus, grafana, heroku, active directory, group policy manager, hyper-v, terraform, vagrant, azure, azure devops"
-workflow: "Kanban, Bullet Journal, Pomodoro, Jira"
+languages-and-frameworks:
+[
+  "go",
+  "ruby",
+  "Ruby on Rails",
+  "JavaScript",
+  "CSS",
+  "Powershell",
+  "python"
+]
+operating-systems:
+[
+  "Ubuntu",
+  "Ubuntu Server",
+  "Fedora",
+  "Windows",
+  "Windows Server",
+  "MacOS"
+]
+tools:
+[
+  "git",
+  "docker",
+  "kubernetes",
+  "ansible",
+  "vim",
+  "gRPC",
+  "rabbitMQ",
+  "PostgreSQL",
+  "MongoDB",
+  "prometheus",
+  "grafana",
+  "heroku",
+  "hyper-v",
+  "terraform",
+  "vagrant",
+  "azure",
+  "azure devops"
+]
 ```
 
 ## Experience
@@ -103,22 +138,22 @@ board-games:
   "Agricola",
   "Skull",
   "Monikers",
-  "Chess",
+  "Chess"
 ]
 hobbies:
 [
-  "Cooking",
   "Music",
+  "Cooking",
   "Tabletop RPGs",
   "Hand-tool woodworking",
-  "Fly fishing",
+  "Fly fishing"
 ]
 video-games:
 [
   "Elden Ring",
   "The Binding of Isaac",
+  "Dota 2",
   "Deep Rock Galactic",
-  "Dwarf Fortress",
-  "Monster Hunter: World"
+  "Dwarf Fortress"
 ]
 ```
