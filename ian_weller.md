@@ -63,17 +63,6 @@
 
 <div class="page"/>
 
-```json
-"company": "FMC Technologies"
-"title": "Software Engineer"
-"date": "June 2015 - December 2015"
-"accomplishments": [
-  "Executed test plans for quality assurance for ISO 9001 standards for features and volume testing",
-  "Worked with team and customers collaboratively to deliver solutions on time",
-  "Developed communication commands for interfacing with other proprietary processes",
-]
-```
-
 ## Skills
 
 ```json
