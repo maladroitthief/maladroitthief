@@ -1,10 +1,10 @@
 # Ian Weller
 
-![version](https://img.shields.io/badge/version-1.3.1-blue) ![coverage](https://img.shields.io/badge/coverage-95%-brightgreen)
+![version](https://img.shields.io/badge/version-1.3.1-blue) ![coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)
 
-> Email - *maladroitthief@gmail.com*
+> Email - maladroitthief@gmail.com
 >
-> Github - *https://github.com/maladroitthief*
+> Github - https://github.com/maladroitthief
 
 ## Entrée
 
