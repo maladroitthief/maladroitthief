@@ -1,131 +1,119 @@
 # Ian Weller
 
-## Contact
+![version](https://img.shields.io/badge/version-1.3.1-blue) ![coverage](https://img.shields.io/badge/coverage-95%-brightgreen)
 
-```json
-"email": "maladroitthief@gmail.com",
-"github": "https://github.com/maladroitthief"
-```
+> Email - *maladroitthief@gmail.com*
+>
+> Github - *https://github.com/maladroitthief*
 
-## Projects
+## Entrée
 
-```json
-"name": "Entrée",
-"description": "Run-based 2-D video game where you fight food in procedurally generated levels",
-"date": "December 2022 - Present",
-"language": "go",
-"accomplishments": [
-  "Developed a two-phase collision detection service using spatial hashing and seperating axis theorem",
-  "Implemented an entity component system to handle large entity counts using generational indices",
-  "Designed a dynamic level generation system to combine hand-crafted rooms with randomized tiles"
-]
-```
+Entrée is a run-based 2-D video game where you fight food in procedurally generated levels. I started development in December 2022 and am writing it using Go in my free time. Major accomplishments include the following:
 
-## Professional Experience
+- Two-phase collision detection service using spatial hashing and separating axis theorem
+- Entity component system to handle large entity counts using generational indices
+- Dynamic level generation system to combine hand-crafted rooms with randomized tiles
 
-```json
-"company": "Atlantis Technology",
-"title": "Senior Software Engineer",
-"date": "August 2022 - Present",
-"accomplishments": [
-  "Developed a service to asyncronsly process and enriched large volumes of data",
-  "Refactored decaying unit tests in multiple repositories to reduce bugs and defects",
-  "Containerized and automated the developer environment to be uniform across all team members",
-  "Automated the deployment procedure and other repeatable tasks to improve productivity"
-]
-```
+## Atlantis Technology
 
-```json
-"company": "IQ Inc"
-"title": "Software Engineer IV"
-"date": "October 2021 - August 2022"
-"accomplishments": [
-  "Automated the provisioning of virtual machines for testing and development using Terraform",
-  "Developed and refactored pipelines for CI-CD, security scanning, and maintenance in Azure DevOps",
-  "Automated the configuration of Windows and Linux servers using Ansible playbooks and roles",
-  "Established a monitoring server using Prometheus, Loki, and Grafana",
-]
-```
+### Senior Software Engineer | August 2022 - August 2023
 
-```json
-"company": "Imperial Systems"
-"title": "Software Engineer"
-"date": "March 2016 - October 2021"
-"accomplishments": [
-  "Founded the software team to improve internal employee efficiency and quality of life",
-  "Developed web applications that served internal employees and external sales representatives",
-  "Sponsored and mentored multiple senior capstone projects for local universities",
-  "Automated and documented procedures to maintain consistency and repeatability",
-  "Monitored server metrics to proactively address potential incidents",
-  "Managed and configured multiple on-prem and remote servers using Ansible"
-]
-```
+At Atlantis Technology I was a senior software engineer consultant for BNY Mellon. I worked on a project focused on processing and enriching large volumes of data in a microservices architecture. Some of my accomplishments at Atlantis include:
+
+- Developed a service to asyncronsly process and enriched large volumes of data
+- Refactored decaying unit tests in multiple repositories to reduce bugs and defects
+- Containerized and automated the developer environment to be uniform across all team members
+- Automated the deployment procedure and other repeatable tasks to improve productivity
+- Mentored other engineers and assisted them with design, implementation, and testing
+
+## IQ Inc
+
+### Software Engineer IV | October 2021 - August 2022
+
+While at IQ Inc I was a DevOps consultant for Omnicell. Additionally I worked with an IQ internal team for developing new products. I also was an Engagement Leader that focused on being a resource to other IQ employees. Some of my accomplishments at IQ include:
+
+- Eliminated toil of manual processes by creating IaaC solutions using Terraform and Ansible
+- Developed and refactored pipelines for CI-CD, security scanning, and maintenance in Azure DevOps
+- Automated the installation and configuration of Windows and Linux test environments using Ansible
+- Established and maintained an on-site monitoring system using Prometheus, Loki, and Grafana
+
+## Imperial Systems
+
+### Software Engineer | March 2016 - October 2021
+
+At Imperial Systems I started the software engineering team and developed internal sales tools. I also took the initiative to handle maintaining, upgrading, and installing internal software and hardware solutions for multiple departments. Additionally, I worked with local universities to sponsor capstone projects to give graduating engineers real world experience in a manufacturing setting. Some of my accomplishments include:
+
+- Founded the software team to improve internal employee efficiency and quality of life
+- Developed web applications that served internal employees and external sales representatives
+- Sponsored and mentored multiple senior capstone projects for local universities
+- Automated and documented procedures to maintain consistency and repeatability
+- Monitored server metrics to proactively address potential incidents
+- Managed and configured multiple on-prem and remote servers using Ansible
+- Starting the annual chili cook-off
 
 <div class="page"/>
 
-## Skills
+## Skills & Experience
 
-```json
-"languages": ["go", "ruby", "rust", "python"]
-"tools": [
-  "git",
-  "docker",
-  "kubernetes",
-  "ansible",
-  "vim",
-  "gRPC",
-  "rabbitMQ",
-  "PostgreSQL",
-  "MongoDB",
-  "prometheus",
-  "grafana",
-  "heroku",
-  "hyper-v",
-  "terraform",
-  "vagrant",
-  "azure",
-  "azure devops",
-]
+```yaml
+languages:
+  backEnd:
+    - go
+    - ruby
+  scripting:
+    - python
+    - bash
+  learning:
+    - rust
+    - svelte
+tools:
+  development:
+    - neovim
+    - tmux
+    - git
+    - docker
+    - PostgreSQL
+    - MongoDB
+    - gRPC
+    - rabbitM
+  devops:
+    - ansible
+    - terraform
+    - kubernetes
+    - heroku
+    - azure devops
+    - prometheus
+    - grafana
+    - loki
 ```
 
 ## Education
 
-```json
-"university": "Penn State Erie: The Behrend College"
-"graduated": "2015"
-"major": "Bachelor of Science in Computer Engineering"
-"minor": "Computer Science"
+```yaml
+university: Penn State Erie - The Behrend College
+  graduated: 2015
+  major: Bachelor of Science in Computer Engineering
+  minor: Computer Science
 ```
 
 ## Personal
 
-```json
-"artists": [
-  "King Gizzard & The Lizard Wizard",
-  "PUP",
-  "Haken",
-  "Radiohead",
-  "black midi"
-]
-"board-games": [
-  "Dominion",
-  "Agricola",
-  "Skull",
-  "Monikers",
-  "Chess"
-]
-"hobbies": [
-  "Music",
-  "Cooking",
-  "Tabletop RPGs",
-  "Hand-tool woodworking",
-  "Fly fishing"
-]
-"video-games": [
-  "Elden Ring",
-  "The Binding of Isaac",
-  "Dota 2",
-  "Deep Rock Galactic",
-  "Dwarf Fortress"
-]
+```yaml
+artists:
+  - King Gizzard & The Lizard Wizard
+  - PUP
+  - Radiohead
+  - black midi
+hobbies:
+  - Music
+  - Cooking
+  - Tabletop RPGs
+  - Hand-tool woodworking
+  - Fly fishing
+video-games:
+  - Elden Ring
+  - The Binding of Isaac
+  - Dota 2
+  - Deep Rock Galactic
+  - Dwarf Fortress
 ```
