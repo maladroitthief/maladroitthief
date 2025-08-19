@@ -62,4 +62,4 @@ Gemfile.lock
 .rubocop-https?--*
 
 .obsidian/workspace*
-
+.build/*
