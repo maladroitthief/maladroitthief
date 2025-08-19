@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   live and drink ☕
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maladroit.dev" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  maladroitthief
+github_username: maladroitthief
 
 # Build settings
 theme: minima
@@ -39,7 +39,9 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - template.md.ejai
+#
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

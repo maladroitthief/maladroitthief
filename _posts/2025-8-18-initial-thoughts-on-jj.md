@@ -1,6 +1,6 @@
 ---
 layout: post
-title: initial-thoughts-on-jj
+title: Initial Thoughts on JJ
 date: 2025-8-18
 tags:
   - engineering

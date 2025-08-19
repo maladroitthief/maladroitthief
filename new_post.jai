@@ -72,14 +72,23 @@ compile_ejai_file :: (filepath: string) -> text: string, ok: bool {
 
   options := get_build_options();
   args := options.compile_time_command_line;
+
 	sb: String_Builder;
 	for args {
 		append(*sb, it);
 		if it_index < args.count-1 then append(*sb, "-");
 	}
-	title := builder_to_string(*sb);
-
+	filename := builder_to_string(*sb);
+	to_lower_in_place(filename);
 	reset(*sb);
+
+	for args {
+		append(*sb, it);
+		if it_index < args.count-1 then append(*sb, " ");
+	}
+	title := builder_to_string(*sb);
+	reset(*sb);
+
 	{
 		print :: (format_string: string, args: ..Any) #expand {
 			print_to_builder(*sb, format_string, ..args);
@@ -87,5 +96,5 @@ compile_ejai_file :: (filepath: string) -> text: string, ok: bool {
 		#insert #run compile_ejai_file("./template.md.ejai");
 	}
 
-	write_entire_file(sprint("./_posts/%-%.md", date, title), builder_to_string(*sb));
+	write_entire_file(sprint("./_posts/%-%.md", date, filename), builder_to_string(*sb));
 }
