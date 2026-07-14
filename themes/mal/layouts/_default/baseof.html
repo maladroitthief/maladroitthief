@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	{{- partial "head.html" . -}}
+  <body class="bg-bg-primary text-text-primary antialiased min-h-screen flex flex-col font-sans transition-colors duration-300">
+		<div class="max-w-4xl mx-auto w-full px-6 flex-grow flex flex-col">
+			{{- partial "header.html" . -}}
+			<main id="content" class="flex-grow py-8" data-pagefind-body>
+			{{- block "main" . }}{{- end }}
+			</main>
+			{{- partial "footer.html" . -}}
+		</div>
+  </body>
+</html>

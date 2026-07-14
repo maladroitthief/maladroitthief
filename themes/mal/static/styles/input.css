@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Fira Code", monospace;
+  
+  --color-bg-primary: var(--bg-primary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-accent: var(--text-accent);
+  --color-border-subtle: var(--border-subtle);
+  
+  --color-hover-bg: var(--hover-bg);
+}
+
+:root {
+  /* Lotus (Light) - Default */
+  --bg-primary: #f2ecbc; /* lotusWhite3 */
+  --text-primary: #545464; /* lotusInk1 */
+  --text-secondary: #43436c; /* lotusInk2 */
+  --text-accent: #4d699b; /* lotusBlue4 */
+  --border-subtle: #e7dba0; /* lotusWhite4 */
+  --hover-bg: #e5ddb0; /* lotusWhite2 */
+}
+
+.dark {
+  /* Wave (Dark) */
+  --bg-primary: #1F1F28; /* sumiInk3 */
+  --text-primary: #DCD7BA; /* fujiWhite */
+  --text-secondary: #C8C093; /* oldWhite */
+  --text-accent: #7E9CD8; /* crystalBlue */
+  --border-subtle: #2A2A37; /* sumiInk4 */
+  --hover-bg: #2A2A37; /* sumiInk4 */
+}
+
+/* Explicitly override plugin defaults by targeting the class directly */
+.prose {
+  --tw-prose-body: var(--text-primary);
+  --tw-prose-headings: var(--text-secondary);
+  --tw-prose-links: var(--text-accent);
+  --tw-prose-bold: var(--text-secondary);
+  --tw-prose-counters: var(--text-secondary);
+  --tw-prose-bullets: var(--text-secondary);
+  --tw-prose-hr: var(--border-subtle);
+  --tw-prose-quotes: var(--text-secondary);
+  --tw-prose-quote-borders: var(--border-subtle);
+  --tw-prose-captions: var(--text-secondary);
+  --tw-prose-code: var(--text-secondary);
+  --tw-prose-pre-code: var(--text-primary);
+  --tw-prose-pre-bg: #e5ddb0; /* lotusWhite2 */
+}
+
+/* Dark mode specific prose overrides */
+.dark .prose {
+  --tw-prose-body: var(--text-primary);
+  --tw-prose-headings: var(--text-primary);
+  --tw-prose-links: var(--text-accent);
+  --tw-prose-bold: var(--text-primary);
+  --tw-prose-counters: var(--text-secondary);
+  --tw-prose-bullets: var(--text-secondary);
+  --tw-prose-hr: var(--border-subtle);
+  --tw-prose-quotes: var(--text-secondary);
+  --tw-prose-quote-borders: var(--border-subtle);
+  --tw-prose-captions: var(--text-secondary);
+  --tw-prose-code: var(--text-primary);
+  --tw-prose-pre-code: var(--text-primary);
+  --tw-prose-pre-bg: #16161D; /* sumiInk0 */
+}
+
+/* Explicit Theme Toggle Visibility Rules */
+.icon-moon { display: block; }
+.icon-sun { display: none; }
+.dark .icon-moon { display: none; }
+.dark .icon-sun { display: block; }
+
+@source "../../layouts/**/*.html";

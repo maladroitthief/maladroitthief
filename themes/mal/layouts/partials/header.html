@@ -1,0 +1,55 @@
+<nav class="flex justify-between items-center py-10 border-b border-border-subtle mb-8">
+	<a href="/" class="text-xl font-bold tracking-tight text-text-primary hover:text-text-accent transition-colors">maladroit.dev</a>
+	<div class="flex items-center gap-6 text-sm font-medium text-text-secondary">
+		<a href="/posts" class="hover:text-text-accent transition-colors">Posts</a>
+		<a href="/notes" class="hover:text-text-accent transition-colors">Notes</a>
+		<a href="/about" class="hover:text-text-accent transition-colors">About</a>
+		
+		<div class="relative group">
+			<form action="/search" method="GET">
+				<input 
+					id="header-search"
+					type="text" 
+					name="q" 
+					placeholder="Search..." 
+					class="bg-hover-bg text-text-primary border border-border-subtle rounded-md px-3 py-1 pl-8 focus:outline-none focus:ring-1 focus:ring-text-accent transition-all w-32 focus:w-48 text-sm"
+				>
+				<svg class="w-4 h-4 absolute left-2.5 top-1/2 transform -translate-y-1/2 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+				</svg>
+			</form>
+		</div>
+
+		<!-- Theme Toggle Icon -->
+		<button id="theme-toggle" type="button" class="text-text-primary hover:text-text-accent transition-colors focus:outline-none" aria-label="Toggle Dark Mode">
+			<svg id="moon-icon" class="icon-moon w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+			</svg>
+			<svg id="sun-icon" class="icon-sun w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+			</svg>
+		</button>
+	</div>
+</nav>
+
+<script>
+    var themeToggleBtn = document.getElementById('theme-toggle');
+    var headerSearchInput = document.getElementById('header-search');
+
+    // Populate header search from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    if (query && headerSearchInput) {
+        headerSearchInput.value = query;
+    }
+
+    themeToggleBtn.addEventListener('click', function() {
+        if (document.documentElement.classList.contains('dark')) {
+            localStorage.theme = 'light';
+            document.documentElement.classList.remove('dark');
+        } else {
+            localStorage.theme = 'dark';
+            document.documentElement.classList.add('dark');
+        }
+    });
+</script>

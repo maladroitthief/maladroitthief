@@ -1,0 +1,21 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ absURL `styles/firacode.css` }}">
+	<link rel="stylesheet" href="{{ absURL `styles/fontawesome.min.css` }}">
+	<link rel="stylesheet" type="text/css" href="{{ absURL `styles/output.css` }}">
+
+	<script>
+		// Default to Dark Mode
+		if (localStorage.theme === 'light') {
+			document.documentElement.classList.remove('dark');
+		} else {
+			document.documentElement.classList.add('dark');
+		}
+	</script>
+
+	<title>maladroit.dev</title>
+	{{ range .AlternativeOutputFormats -}}
+	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+	{{ end -}}
+</head>

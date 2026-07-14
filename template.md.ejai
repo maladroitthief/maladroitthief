@@ -1,8 +1,0 @@
----
-layout: post
-title: <% print("%", title); %>
-date: <% print("%", date); %>
-tags:
----
-
-

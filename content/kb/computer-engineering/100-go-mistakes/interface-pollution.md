@@ -1,0 +1,103 @@
+---
+title: Interface pollution
+layout: idea
+tags:
+  - 100-go-mistakes
+---
+
+# Interface pollution
+
+Interfaces are one of the most valuable tools for structuring Go code and as a
+result they are often abused creating unnecessary abstractions and difficult to
+follow code.
+
+Creating interfaces and abstractions early. We should not be creating an
+interface before their is code to implement it. Abstractions should be
+discovered, not created.
+
+## Common behavior
+
+Consider the `sort` interface which is incredibly common
+
+```go
+type Interface interface {
+	Len() int
+	Less(i, j int) bool
+	Swap(i, j int)
+}
+```
+
+## Decoupling
+
+### Coupled
+
+```go
+type CustomerService struct {
+	store mysql.Store
+}
+
+func (cs CustomerService) CreateNewCustomer(id string) error {
+	customer := Customer{id: id}
+	return cs.store.StoreCustomer(customer)
+}
+```
+
+### Decoupled using an interface
+
+```go
+type customerStorer interface {
+	StoreCustomer(Customer) error
+}
+
+type CustomerService struct {
+	storer customerStorer
+}
+
+func (cs CustomerService) CreateNewCustomer(id string) error {
+	customer := Customer{id: id}
+	return cs.storer.StoreCustomer(customer)
+}
+```
+
+## Restricting Behavior
+
+### Concrete implementation
+
+```go
+type IntConfig struct {
+	// ...
+}
+
+func (c *IntConfig) Get() int {
+	// Retrieve configuration
+}
+
+func (c *IntConfig) Set(value int) {
+	// Update configuration
+}
+```
+
+### Restricted implementation using an interface
+
+```go
+type intConfigGetter interface {
+	Get() int
+}
+
+type Foo struct {
+	threshold intConfigGetter
+}
+
+func NewFoo(threshold intConfigGetter) Foo {
+	return Foo{threshold: threshold}
+}
+
+func (f Foo) Bar() {
+	threshold := f.threshold.Get()
+	// ...
+}
+```
+
+## References
+
+- [100 Go Mistakes](/kb/reference/100-go-mistakes-and-how-to-avoid-them)

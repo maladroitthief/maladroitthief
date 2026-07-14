@@ -1,0 +1,27 @@
+{
+  "name": "maladroit.dev",
+  "version": "1.0.0",
+  "description": "```bash hugo new posts/title.md ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/maladroitthief/maladroit.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://gitlab.com/maladroitthief/maladroit.dev/issues"
+  },
+  "homepage": "https://gitlab.com/maladroitthief/maladroit.dev#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "pagefind": "^1.4.0",
+    "tailwindcss": "^4.1.18"
+  }
+}
