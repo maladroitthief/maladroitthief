@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'maladroit.dev'
 theme = 'mal'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
