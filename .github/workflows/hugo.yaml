@@ -118,7 +118,7 @@ jobs:
           hugo build \
             --gc \
             --minify \
-		        --cleanDestinationDir \
+            --cleanDestinationDir \
             --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
