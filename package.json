@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/maladroitthief/maladroit.dev.git"
+    "url": "git+ssh://git@github.com/maladroitthief/maladroitthief.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://gitlab.com/maladroitthief/maladroit.dev/issues"
+    "url": "https://github.com/maladroitthief/maladroitthief/issues"
   },
-  "homepage": "https://gitlab.com/maladroitthief/maladroit.dev#readme",
+  "homepage": "https://github.com/maladroitthief/maladroitthief#readme",
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "pagefind": "^1.4.0",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.3.2"
   }
 }

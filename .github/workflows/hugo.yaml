@@ -118,7 +118,8 @@ jobs:
           hugo build \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+		        --cleanDestinationDir \
+            --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
       - name: Cache save
