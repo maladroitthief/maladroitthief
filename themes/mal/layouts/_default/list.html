@@ -1,8 +1,26 @@
 {{ define "main" }}
 <h1 class="text-3xl font-bold mb-8">{{ .Title }}</h1>
-<ul class="space-y-12 list-none pl-0">
-{{ range .Pages.ByPublishDate.Reverse }}
-{{- partial "listitem.html" . -}}
+
+<div class="prose prose-lg mx-auto max-w-none">
+	{{ .Content }}
+</div>
+<br>
+
+{{ if eq .Params.list_type "sections" }}
+	</br>
+	<h2 class="text-3xl font-bold mb-8">Sections</h2>
+	<ul class="space-y-12 list-none pl-0">
+	{{ range .Sections.ByPublishDate.Reverse }}
+	{{- partial "listitem.html" . -}}
+	{{ end }}
+	</ul>
+{{ else if eq .Params.list_type "none" }}
+{{ else }}
+	<h2 class="text-3xl font-bold mb-8">Recent Pages</h2>
+	<ul class="space-y-12 list-none pl-0">
+	{{ range .Pages.ByPublishDate.Reverse }}
+	{{- partial "listitem.html" . -}}
+	{{ end }}
+	</ul>
 {{ end }}
-</ul>
 {{ end }}

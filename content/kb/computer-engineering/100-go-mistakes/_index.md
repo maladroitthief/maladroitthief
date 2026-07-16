@@ -1,6 +1,6 @@
 ---
 title: 100 Go Mistakes
-layout: idea
+list_type: none
 tags:
   - 100-go-mistakes
   - computer-engineering

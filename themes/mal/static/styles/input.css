@@ -16,9 +16,9 @@
 :root {
   /* Lotus (Light) - Default */
   --bg-primary: #f2ecbc; /* lotusWhite3 */
-  --text-primary: #545464; /* lotusInk1 */
-  --text-secondary: #43436c; /* lotusInk2 */
-  --text-accent: #4d699b; /* lotusBlue4 */
+  --text-primary: #282727; /* lotusInk1 */
+  --text-secondary: #625e5a; /* lotusInk2 */
+  --text-accent: #6993bf; /* lotusBlue4 */
   --border-subtle: #e7dba0; /* lotusWhite4 */
   --hover-bg: #e5ddb0; /* lotusWhite2 */
 }

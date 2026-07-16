@@ -7,8 +7,6 @@ tags:
   - computer-engineering
 ---
 
-# Algorithms
-
 Algorithms are step by step procedures that are used for solving a computational
 problem. An algorithm is different from a program in that algorithms are used
 during the Software-design-phase. An algorithm should be independent of

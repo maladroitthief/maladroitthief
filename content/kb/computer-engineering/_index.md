@@ -1,9 +1,7 @@
 ---
 title: Computer Engineering
-layout: hub
-permalink: /computer-engineering
+list_type: sections
 tags:
   - computer-engineering
 ---
 
-# Computer Engineering

@@ -1266,9 +1266,9 @@
 }
 :root {
   --bg-primary: #f2ecbc;
-  --text-primary: #545464;
-  --text-secondary: #43436c;
-  --text-accent: #4d699b;
+  --text-primary: #282727;
+  --text-secondary: #625e5a;
+  --text-accent: #6993bf;
   --border-subtle: #e7dba0;
   --hover-bg: #e5ddb0;
 }
