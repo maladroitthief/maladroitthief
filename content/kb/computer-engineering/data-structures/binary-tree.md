@@ -3,7 +3,6 @@ title: Binary Tree
 layout: idea
 tags:
   - data-structures
-mermaid: true
 ---
 
 # Binary tree

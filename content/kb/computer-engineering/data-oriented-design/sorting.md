@@ -3,7 +3,6 @@ title: Sorting
 layout: idea
 tags:
   - data-oriented-design
-mermaid: true
 ---
 
 # Sorting

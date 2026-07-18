@@ -3,7 +3,6 @@ title: Hierarchical Level of Detail & Implicit State
 layout: idea
 tags:
   - data-oriented-design
-mermaid: true
 ---
 
 # Hierarchical Level of Detail & Implicit State

@@ -1,7 +1,6 @@
 ---
 title: Trie
 layout: idea
-mermaid: true
 tags:
   - data-structures
 ---
