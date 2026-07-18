@@ -6,11 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="{{ absURL `styles/output.css` }}">
 
 	<script>
-		// Default to Dark Mode
-		if (localStorage.theme === 'light') {
-			document.documentElement.classList.remove('dark');
+		function setTheme(themeName) {
+			document.documentElement.setAttribute('data-theme', themeName);
+			localStorage.setItem('theme', themeName);
+		}
+
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme) {
+		  setTheme(savedTheme);
 		} else {
-			document.documentElement.classList.add('dark');
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			setTheme(prefersDark ? 'dark' : 'light');
 		}
 	</script>
 

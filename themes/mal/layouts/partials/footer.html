@@ -1,19 +1,19 @@
-<footer class="py-10 text-center text-sm text-text-secondary border-t border-border-subtle mt-auto">
+<footer class="py-10 text-center text-sm border-t mt-auto">
 	<div class="flex justify-center items-center gap-4 mb-4">
-		<a href="mailto:maladroitthief@gmail.com" class="text-text-secondary hover:text-text-accent transition-colors" title="RSS Feed">
+		<a href="mailto:maladroitthief@gmail.com" class="transition-colors" title="RSS Feed">
 			<i class="fa-solid fa-message"></i> email
 		</a>
 		{{ with site.GetPage "/posts" }}
 			{{ with .OutputFormats.Get "RSS" }}
-				<a href="{{ .RelPermalink }}" class="text-text-secondary hover:text-text-accent transition-colors" title="RSS Feed">
+				<a href="{{ .RelPermalink }}" class="transition-colors" title="RSS Feed">
 					<i class="fa-solid fa-rss"></i> rss
 				</a>
 			{{ end }}
 		{{ end }}
-		<a href="https://github.com/maladroitthief" class="text-text-secondary hover:text-text-accent transition-colors" title="RSS Feed">
+		<a href="https://github.com/maladroitthief" class="transition-colors" title="github">
 			<i class="fa-brands fa-github"></i> github
 		</a>
-		<a href="https://bsky.app/profile/maladroit.dev" class="text-text-secondary hover:text-text-accent transition-colors" title="RSS Feed">
+		<a href="https://bsky.app/profile/maladroit.dev" class="transition-colors" title="bluesky">
 			<i class="fa-brands fa-bluesky"></i> bluesky
 		</a>
 	</div>

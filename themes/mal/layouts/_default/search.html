@@ -1,12 +1,12 @@
 {{ define "main" }}
 <article class="max-w-none" data-pagefind-ignore>
-	<header class="mb-10 text-center border-b border-border-subtle pb-10">
+	<header class="mb-10 text-center border-b pb-10">
 		<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-text-primary mb-6 leading-tight">
 			{{ .Title }}
 		</h1>
 	</header>
 
-	<div id="search-info" class="text-sm text-text-secondary italic mb-6 min-h-[1.5em]"></div>
+	<div id="search-info" class="text-sm italic mb-6 min-h-[1.5em]"></div>
 	<div id="search-results" class="space-y-10"></div>
 	<div id="pagination" class="mt-16 flex justify-center items-center gap-8"></div>
 	
@@ -41,12 +41,12 @@
 				resultsArea.innerHTML = data.map(result => `
 					<div class="search-result group">
 						<h3 class="text-2xl font-bold mb-2">
-							<a href="${result.url}" class="text-text-accent hover:underline decoration-2 underline-offset-4">
+							<a href="${result.url}" class="hover:underline decoration-2 underline-offset-4">
 								${result.meta.title || 'Untitled'}
 							</a>
 						</h3>
-						<p class="text-text-secondary leading-relaxed">${result.excerpt}</p>
-						<div class="mt-2 text-xs font-mono text-text-secondary opacity-60 uppercase tracking-widest">
+						<p class="leading-relaxed">${result.excerpt}</p>
+						<div class="mt-2 text-xs font-mono opacity-60 uppercase tracking-widest">
 							${result.url}
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 				currentResults = search.results;
 
 				if (currentResults.length === 0) {
-					resultsArea.innerHTML = `<p class="text-text-secondary italic text-lg">No results found for "${query}"</p>`;
+					resultsArea.innerHTML = `<p class="italic text-lg">No results found for "${query}"</p>`;
 					infoArea.innerHTML = '';
 					paginationArea.innerHTML = '';
 					return;
