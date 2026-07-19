@@ -1,11 +1,6 @@
 ---
 title: Not understanding race problems
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding race problems
 
 Race problems can be among the hardest and most insidious bugs to fix.
 

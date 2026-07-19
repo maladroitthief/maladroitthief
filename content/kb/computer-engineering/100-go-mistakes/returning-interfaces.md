@@ -1,11 +1,6 @@
 ---
 title: Returning interfaces
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Returning interfaces
 
 Returning an interface can result in dependency and import cycle hell.
 

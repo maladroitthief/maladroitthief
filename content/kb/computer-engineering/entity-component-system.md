@@ -1,11 +1,6 @@
 ---
 title: Entity component system
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# Entity component system
 
 Entity component systems simplify architecture and encourage separation of
 responsibilities.

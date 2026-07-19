@@ -1,11 +1,6 @@
 ---
 title: Forgetting the return after replying to an HTTP request
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Forgetting the return after replying to an HTTP request
 
 ## Mistake
 

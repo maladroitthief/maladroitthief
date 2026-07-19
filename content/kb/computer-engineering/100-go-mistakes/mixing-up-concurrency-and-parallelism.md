@@ -1,11 +1,6 @@
 ---
 title: Mixing up concurrency and parallelism
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Mixing up concurrency and parallelism
 
 ## Mistake
 

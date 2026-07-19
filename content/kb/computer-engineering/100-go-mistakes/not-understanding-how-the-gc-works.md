@@ -1,11 +1,6 @@
 ---
 title: Not understanding how the GC works
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding how the GC works
 
 A GC keeps a tree of object references and the Go GC is based on the mark and
 sweep algorithm.

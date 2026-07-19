@@ -1,11 +1,6 @@
 ---
 title: Unnecessary Nested Code
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Unnecessary nested code
 
 Multiple layers of nested code can impact readability.
 

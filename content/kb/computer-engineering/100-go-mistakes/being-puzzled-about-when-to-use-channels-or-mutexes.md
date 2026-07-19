@@ -1,11 +1,6 @@
 ---
 title: Being puzzled about when to use channels or mutexes
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Being puzzled about when to use channels or mutexes
 
 In Go, channels are a communication mechanism that can be used to send and
 receive values. Channels can be either unbuffered, blocks until receiver is

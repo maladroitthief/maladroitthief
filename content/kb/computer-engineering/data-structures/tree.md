@@ -1,11 +1,6 @@
 ---
 title: Tree
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Tree
 
 Trees are hierarchical data structures that are made up of a series of nodes.
 Each node can have many children but needs to have one parent. If a node does

@@ -1,11 +1,6 @@
 ---
 title: The Algorithm Design Manual
-layout: reference
-tags:
-  - reference
 ---
-
-# The Algorithm Design Manual
 
 |               |                             |
 | ------------- | --------------------------- |

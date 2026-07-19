@@ -1,11 +1,6 @@
 ---
 title: Helping the Compiler
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Helping the Compiler
 
 While compilers are good at optimizing code, they are not magic wands. It is the
 engineer's job to write code that the compiler can reason with and better apply

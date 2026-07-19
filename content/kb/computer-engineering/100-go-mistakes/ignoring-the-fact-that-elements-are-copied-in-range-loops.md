@@ -1,11 +1,6 @@
 ---
 title: Ignoring the fact that elements are copied in range loops
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring the fact that elements are copied in range loops
 
 The `range` keyword is a convenient way to iterate over data structures.
 

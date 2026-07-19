@@ -1,11 +1,6 @@
 ---
 title: Not understanding the concurrency impacts of a workload type
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding the concurrency impacts of a workload type
 
 The execution time of a workload is limited by one of the following:
 

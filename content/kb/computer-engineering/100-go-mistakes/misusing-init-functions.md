@@ -1,11 +1,6 @@
 ---
 title: Misusing init functions
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Misusing init functions
 
 The `init()` function in go is a function that is initialized first in the
 package. The order of evaluation is

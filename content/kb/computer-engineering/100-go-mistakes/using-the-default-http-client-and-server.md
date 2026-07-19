@@ -1,11 +1,6 @@
 ---
 title: Using the default HTTP client and server
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Using the default HTTP client and server
 
 ## Client
 

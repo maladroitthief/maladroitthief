@@ -1,11 +1,6 @@
 ---
 title: Sorting
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Sorting
 
 Sorting is important, however it is not always necessary and can cause more
 performance problems than it's worth. There are algorithms that may seem like

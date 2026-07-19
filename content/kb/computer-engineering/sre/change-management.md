@@ -1,11 +1,6 @@
 ---
 title: Change management
-layout: idea
-tags:
-  - sre
 ---
-
-# Change management
 
 > ~70% of outages are due to changes on live systems
 

@@ -1,11 +1,6 @@
 ---
 title: Expecting deterministic behavior using select and channels
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Expecting deterministic behavior using select and channels
 
 ## Mistake
 

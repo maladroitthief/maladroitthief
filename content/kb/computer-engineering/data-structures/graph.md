@@ -1,11 +1,6 @@
 ---
 title: Graph
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Graph
 
 A graph is a collection of nodes that are connected to each other by edges.
 Edges can be either directed (one-way) or undirected and they can also have

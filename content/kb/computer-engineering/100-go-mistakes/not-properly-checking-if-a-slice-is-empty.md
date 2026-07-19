@@ -1,11 +1,6 @@
 ---
 title: Not properly checking if a slice is empty
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not properly checking if a slice is empty
 
 What is the clear and concise method for checking if a slice has any elements?
 

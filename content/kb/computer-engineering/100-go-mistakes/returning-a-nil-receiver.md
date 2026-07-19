@@ -1,11 +1,6 @@
 ---
 title: Returning a nil receiver
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Returning a nil receiver
 
 ## Mistake
 

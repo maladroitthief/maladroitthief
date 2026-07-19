@@ -1,11 +1,6 @@
 ---
 title: Maps and memory leaks
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Maps and memory leaks
 
 When maps grow and shrink, buckets need to be added to the underlying data
 structure to support it.

@@ -1,11 +1,6 @@
 ---
 title: Not being aware of data alignment
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not being aware of data alignment
 
 Data alignment is the concept of having a variable's memory address be a
 multiple of its size.

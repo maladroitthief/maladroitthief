@@ -1,11 +1,6 @@
 ---
 title: Not being aware of the possible problems with type embedding
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not being aware of the possible problems with type embedding
 
 In Go, a struct field is embedded if it is declared without a name
 

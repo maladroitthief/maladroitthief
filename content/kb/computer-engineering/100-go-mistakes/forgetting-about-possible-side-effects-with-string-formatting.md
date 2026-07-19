@@ -1,11 +1,6 @@
 ---
 title: Forgetting about possible side effects with string formatting
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Forgetting about possible side effects with string formatting
 
 ## Mistake
 

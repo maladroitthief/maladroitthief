@@ -1,11 +1,6 @@
 ---
 title: Not dealing with the time API efficiently
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not dealing with the time API efficiently
 
 
 ## Mistake

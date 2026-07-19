@@ -1,11 +1,6 @@
 ---
 title: Ignoring package name collisions
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring package name collisions
 
 Package name collisions occur when a variable or function shares the same name
 as a package.

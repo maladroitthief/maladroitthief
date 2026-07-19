@@ -1,11 +1,6 @@
 ---
 title: Not knowing how to reduce allocations
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not knowing how to reduce allocations
 
 ## API changes
 

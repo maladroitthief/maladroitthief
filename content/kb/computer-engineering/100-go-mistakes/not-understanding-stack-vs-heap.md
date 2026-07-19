@@ -1,11 +1,6 @@
 ---
 title: Not understanding stack vs heap
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding stack vs heap
 
 ## Stack
 

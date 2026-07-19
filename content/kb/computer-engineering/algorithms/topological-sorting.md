@@ -1,11 +1,6 @@
 ---
 title: Topological sort
-layout: idea
-tags:
-  - algorithms
 ---
-
-# Topological sorting
 
 A topological sort is a linear ordering of a directed graph. The ordering works
 similarly to [Depth-first-search](/kb/computer-engineering/depth-first-search), but

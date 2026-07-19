@@ -1,11 +1,6 @@
 ---
 title: Inefficient slice initialization
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Inefficient slice initialization
 
 When initializing a slice using `make` we can provide a length and an optional
 capacity.

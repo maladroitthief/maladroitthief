@@ -1,11 +1,6 @@
 ---
 title: Floating points
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# Floating points
 
 The concept of floating point numbers was created to solve the problem that
 integer values cannot represent fractional numbers. Floating point numbers are

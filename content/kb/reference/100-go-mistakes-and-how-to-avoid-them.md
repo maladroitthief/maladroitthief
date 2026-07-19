@@ -1,11 +1,6 @@
 ---
 title: 100 Go Mistakes and How to Avoid Them
-layout: reference
-tags:
-  - reference
 ---
-
-# 100 Go Mistakes and How to Avoid Them
 
 |               |                                                                                |
 | ------------- | ------------------------------------------------------------------------------ |

@@ -1,11 +1,6 @@
 ---
 title: Sleeping in unit tests
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Sleeping in unit tests
 
 
 ## Mistake

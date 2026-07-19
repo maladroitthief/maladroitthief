@@ -1,11 +1,6 @@
 ---
 title: Creating confusion with octal literals
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Creating confusion with octal literals
 
 Any integer literal in Go that begins with a `0` is considered to be an octal
 

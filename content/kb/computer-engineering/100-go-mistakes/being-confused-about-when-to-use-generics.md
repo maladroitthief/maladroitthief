@@ -1,11 +1,6 @@
 ---
 title: Being confused about when to use generics
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Being confused about when to use generics
 
 Generics in Go are types that can be specified later. Before generics were added
 to Go, handling similar functionality across types was a chore. With generics we

@@ -1,11 +1,6 @@
 ---
 title: Misunderstanding Go contexts
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Misunderstanding Go contexts
 
 A Context carries a deadline, a cancellation signal, and other values across API
 boundaries.

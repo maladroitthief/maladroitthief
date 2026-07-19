@@ -1,11 +1,6 @@
 ---
 title: Interface pollution
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Interface pollution
 
 Interfaces are one of the most valuable tools for structuring Go code and as a
 result they are often abused creating unnecessary abstractions and difficult to

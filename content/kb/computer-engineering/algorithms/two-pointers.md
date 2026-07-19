@@ -1,11 +1,6 @@
 ---
 title: Two pointers
-layout: idea
-tags:
-  - computational-techniques
 ---
-
-# Two pointers
 
 The two pointers technique is a generalization of the
 [Sliding-window](/kb/computer-engineering/sliding-window) technique. The primary

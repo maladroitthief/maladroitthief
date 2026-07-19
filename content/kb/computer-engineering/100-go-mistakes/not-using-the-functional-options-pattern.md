@@ -1,11 +1,6 @@
 ---
 title: Not using the functional options pattern
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using the functional options pattern
 
 For API design, how do we handle optional configurations?
 

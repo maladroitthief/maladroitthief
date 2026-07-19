@@ -1,11 +1,6 @@
 ---
-title: How to Become a Straigh-A Student
-layout: reference
-tags:
-  - reference
+title: How to Become a Straight-A Student
 ---
-
-# How to Become a Straight-A Student
 
 |               |                                    |
 | ------------- | ---------------------------------- |

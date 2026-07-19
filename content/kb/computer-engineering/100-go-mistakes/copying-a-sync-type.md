@@ -1,11 +1,6 @@
 ---
 title: Copying a sync type
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Copying a sync type
 
 All primitive types in the `sync` package follow one hard rule, they should
 **never** be copied.

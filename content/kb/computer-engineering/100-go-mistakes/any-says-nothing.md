@@ -1,11 +1,6 @@
 ---
 title: Any says nothing
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Any says nothing
 
 The empty `interface{}` or `any` is considered to be an over-generalization.
 

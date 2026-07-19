@@ -1,11 +1,6 @@
 ---
 title: cd
-layout: idea
-tags:
-  - linux
 ---
-
-# cd
 
 Change directory. Works with the [Directory](/kb/computer-engineering/directory)
 path special characters

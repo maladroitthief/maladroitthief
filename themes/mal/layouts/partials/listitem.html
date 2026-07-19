@@ -1,19 +1,11 @@
 <li class="group">
 	<a href="{{ .RelPermalink }}" class="block">
-		<h3 class="text-2xl font-bold transition-colors mb-2">
-			{{ .Title }}
-		</h3>
 		<div class="flex items-center text-sm mb-3 space-x-4">
+			<h3 class="text-2xl font-bold text-red transition-colors mb-2">
+				{{ .Title }}
+			</h3>
 			{{ if .PublishDate }}
 			<time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">{{ time.Format "January 2, 2006" .PublishDate }}</time>
-			{{ end }}
-			{{ if .Params.Tags }}
-			<span class="text-border-subtle">|</span>
-			<span class="flex gap-2">
-				{{ range .Params.Tags }}
-				<span class="bg-hover-bg px-2 py-0.5 rounded text-xs transition-colors">#{{ . }}</span>
-				{{ end }}
-			</span>
 			{{ end }}
 		</div>
 	</a>

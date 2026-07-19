@@ -6,21 +6,20 @@
 </div>
 <br>
 
-{{ if eq .Params.list_type "sections" }}
-	</br>
-	<h2 class="text-3xl font-bold mb-8">Sections</h2>
-	<ul class="space-y-12 list-none pl-0">
-	{{ range .Sections.ByPublishDate.Reverse }}
-	{{- partial "listitem.html" . -}}
-	{{ end }}
-	</ul>
-{{ else if eq .Params.list_type "none" }}
-{{ else }}
-	<h2 class="text-3xl font-bold mb-8">Recent Pages</h2>
-	<ul class="space-y-12 list-none pl-0">
-	{{ range .Pages.ByPublishDate.Reverse }}
-	{{- partial "listitem.html" . -}}
-	{{ end }}
-	</ul>
+{{ if .Sections }}
+<h2 class="text-3xl font-bold mb-8">Sections</h2>
+<ul class="space-y-12 list-none pl-0">
+{{ range .Sections }}
+{{- partial "listitem.html" . -}}
 {{ end }}
+</ul>
+{{ end }}
+
+<h2 class="text-3xl font-bold mb-8">Notes</h2>
+<ul class="space-y-12 list-none pl-0">
+{{ range .RegularPages.ByPublishDate.Reverse }}
+{{- partial "listitem.html" . -}}
+{{ end }}
+</ul>
+
 {{ end }}

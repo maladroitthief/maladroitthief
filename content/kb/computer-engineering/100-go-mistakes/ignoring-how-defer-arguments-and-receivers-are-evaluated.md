@@ -1,11 +1,6 @@
 ---
 title: Ignoring how defer arguments and receivers are evaluated
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring how defer arguments and receivers are evaluated
 
 ## Mistake
 

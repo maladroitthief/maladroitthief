@@ -1,9 +1,6 @@
 ---
 title: Study habits
 date: 2024-11-11
-tags:
-  - life
-  - gamedev
 ---
 
 I have been trying to figure out new ways to encourage studying. I have been

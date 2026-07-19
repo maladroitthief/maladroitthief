@@ -1,11 +1,6 @@
 ---
 title: Providing a wrong time duration
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Providing a wrong time duration
 
 ## Mistake
 

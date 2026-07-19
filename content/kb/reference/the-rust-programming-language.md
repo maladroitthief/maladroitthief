@@ -1,10 +1,6 @@
 ---
-tags:
-  - reference
-aliases:
+title: The Rust Programming Language
 ---
-
-# The Rust Programming Language
 
 Author: Steve Klabnik & Carol Nichols
 Source: [Online](https://doc.rust-lang.org/book/)

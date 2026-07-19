@@ -1,10 +1,5 @@
 ---
 title: Algorithms
-layout: hub
-permalink: /algorithms
-tags:
-  - algorithms
-  - computer-engineering
 ---
 
 Algorithms are step by step procedures that are used for solving a computational

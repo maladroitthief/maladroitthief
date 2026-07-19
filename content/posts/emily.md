@@ -1,8 +1,6 @@
 ---
 title: Emily
 date: 2025-04-24
-tags:
-  - life
 ---
 
 A lot has changed in the last few months. My daughter Emily was born on March 22

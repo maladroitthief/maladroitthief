@@ -1,11 +1,6 @@
 ---
 title: Apache Iceberg
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# [Apache Iceberg][1]
 
 Apache Iceberg is an open table format for huge, slow-changing, analytic
 data-sets. Iceberg aims to support the following:

@@ -1,11 +1,6 @@
 ---
 title: Trie
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Trie
 
 A trie is a [Tree](/kb/computer-engineering/tree) structure where each edge represents one character
 and the root is null. Each path from the root represents a string, described by

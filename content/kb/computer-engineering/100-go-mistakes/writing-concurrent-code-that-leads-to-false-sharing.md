@@ -1,11 +1,6 @@
 ---
 title: Writing concurrent code that leads to false sharing
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Writing concurrent code that leads to false sharing
 
 ## Mistake
 

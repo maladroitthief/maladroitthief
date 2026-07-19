@@ -1,8 +1,6 @@
 ---
 title: Australia
 date: 2026-05-05
-tags:
-  - life
 ---
 
 Working from Australia for the next few days. Absolutely beautiful country with some of the friendliest folks. Absolutely love the trains in Sydney and hope we get something similar in the US someday.

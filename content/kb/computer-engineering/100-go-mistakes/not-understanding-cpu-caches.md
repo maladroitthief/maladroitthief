@@ -1,11 +1,6 @@
 ---
 title: Not understanding CPU caches
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding CPU caches
 
 ## CPU Architecture
 

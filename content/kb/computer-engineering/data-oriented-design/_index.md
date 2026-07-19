@@ -1,12 +1,6 @@
 ---
 title: Data Oriented Design
-layout: hub
-tags:
-  - data-oriented-design
-  - computer-engineering
 ---
-
-# Data Oriented Design
 
 Data-oriented design is an approach to software development that focuses on
 separating the data from context and operations. It values leveraging

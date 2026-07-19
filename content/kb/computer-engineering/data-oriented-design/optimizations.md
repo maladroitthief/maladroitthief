@@ -1,11 +1,6 @@
 ---
 title: Optimizations
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Optimizations
 
 Optimizations cannot be done blindly, you need to know what is causing the code
 to run slowly. In most cases, data movement tends to be the most expensive

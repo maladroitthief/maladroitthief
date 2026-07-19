@@ -1,11 +1,6 @@
 ---
 title: Propagating an inappropriate context
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Propagating an inappropriate context
 
 ## Mistake
 

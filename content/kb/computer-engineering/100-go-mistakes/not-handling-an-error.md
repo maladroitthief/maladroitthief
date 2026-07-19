@@ -1,11 +1,6 @@
 ---
 title: Not handling an error
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not handling an error
 
 
 ## Mistake

@@ -1,11 +1,6 @@
 ---
 title: Not handling defer errors
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not handling defer errors
 
 ## Mistake
 

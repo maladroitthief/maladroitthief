@@ -1,11 +1,6 @@
 ---
 title: Array
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Array
 
 An array is a collection of items that are held in order at a specific index.
 They are useful for storing objects of the same type in a single variable and it

@@ -1,11 +1,6 @@
 ---
 title: Not exploring all the Go test features
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not exploring all the Go test features
 
 ## Code coverage
 

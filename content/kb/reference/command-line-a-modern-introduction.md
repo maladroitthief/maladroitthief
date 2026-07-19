@@ -1,10 +1,6 @@
 ---
-tags:
-  - reference
-aliases:
+title: "Command Line: A modern introduction"
 ---
-
-# Command Line: A modern introduction
 
 |               |                                                         |
 | ------------- | ------------------------------------------------------- |

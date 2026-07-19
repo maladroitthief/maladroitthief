@@ -1,11 +1,6 @@
 ---
 title: Useless string conversions
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Useless string conversions
 
 ## Mistake
 

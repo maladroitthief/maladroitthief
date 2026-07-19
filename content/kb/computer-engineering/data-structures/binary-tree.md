@@ -1,11 +1,6 @@
 ---
 title: Binary Tree
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Binary tree
 
 A binary tree is a tree where each node has a max of two children. A complete
 binary tree is a binary tree where every level is completely filled. A balance

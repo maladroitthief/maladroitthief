@@ -1,11 +1,6 @@
 ---
 title: Creating data races with append
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Creating data races with append
 
 ## Mistake
 

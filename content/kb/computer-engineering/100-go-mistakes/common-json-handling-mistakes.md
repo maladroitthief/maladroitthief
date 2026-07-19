@@ -1,11 +1,6 @@
 ---
 title: Common JSON handling mistakes
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Common JSON handling mistakes
 
 ## Type embedding
 

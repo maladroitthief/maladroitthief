@@ -1,9 +1,6 @@
 ---
 title: Solo RPG
 date: 2025-03-01
-tags:
-  - life
-  - ttrpg
 ---
 
 The first few months of 2025 have been pretty solid. I managed to learn how to

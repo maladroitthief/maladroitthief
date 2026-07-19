@@ -1,11 +1,6 @@
 ---
 title: Not using nil channels
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using nil channels
 
 ## Mistake
 

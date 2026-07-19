@@ -1,10 +1,6 @@
 ---
-tags:
-  - reference
-aliases:
+title: The PARA Method
 ---
-
-# The PARA Method
 
 Author: Tiago Forte
 Source: [The PARA Method: The Simple System for Organizing Your Digital Life in Seconds](https://fortelabs.com/blog/para/)

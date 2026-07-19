@@ -1,11 +1,6 @@
 ---
 title: Variable shadowing
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Variable-shadowing
 
 Variable shadowing is re-declaring a variable in an inner block and can result
 in unexpected outcomes.

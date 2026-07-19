@@ -1,11 +1,6 @@
 ---
 title: Component Based Objects
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Component Based Objects
 
 Thinking using components instead of inheritance can prevent needlessly linking
 ideas that are unrelated to one another. Objects built this way can be processed

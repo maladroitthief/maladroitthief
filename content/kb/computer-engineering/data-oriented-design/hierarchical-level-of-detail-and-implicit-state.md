@@ -1,11 +1,6 @@
 ---
 title: Hierarchical Level of Detail & Implicit State
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Hierarchical Level of Detail & Implicit State
 
 Hierarchical level of detail (HLOD) is a technique where an entity gains or
 loses detail depending on how relevant it currently is to the user or system.

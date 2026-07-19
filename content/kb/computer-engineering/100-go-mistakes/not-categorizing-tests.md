@@ -1,11 +1,6 @@
 ---
 title: Not categorizing tests
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not categorizing tests
 
 ## Build tags
 

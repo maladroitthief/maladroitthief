@@ -1,11 +1,6 @@
 ---
 title: Using a defer inside a loop
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Using a defer inside a loop
 
 The `defer` statement delays execution until the surrounding function exits.
 

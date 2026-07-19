@@ -1,11 +1,6 @@
 ---
 title: Overusing getters and setters
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Overusing getters and setters
 
 Data encapsulation refers to hiding the values and state of an object. Getters
 and Setters are a means to enable encapsulation, yet Go has no automatic support

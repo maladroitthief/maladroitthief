@@ -1,11 +1,6 @@
 ---
 title: Slices and memory leaks
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Slices and memory leaks
 
 Slicing an existing slice can lead to memory leaks under certain conditions.
 

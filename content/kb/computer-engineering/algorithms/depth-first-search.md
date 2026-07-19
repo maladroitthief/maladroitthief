@@ -1,11 +1,6 @@
 ---
 title: Depth first search
-layout: idea
-tags:
-  - algorithms
 ---
-
-# Depth-first-search
 
 Depth first search is a graph traversal algorithm that travels as far as
 possible along edges before it backtracks. This is typically accomplished using

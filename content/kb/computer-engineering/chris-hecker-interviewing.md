@@ -1,11 +1,6 @@
 ---
 title: Chris Hecker Interview Process
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# Chris Hecker Interview Process
 
 The Chris Hecker interview process is an approach to interviewing software
 engineers that focuses on assessing the candidate based on topics they should
@@ -57,36 +52,6 @@ Focus on the following:
 - **Problem-solving**: Discuss challenges they faced and how they overcame them
 - **Communication**: Evaluate how good the candidate is at explaining
   themselves. Are they being patient and making sure they are understood?
-
-## The problem with software engineering interviews
-
-The average software engineer interview involves giving a candidate some kind of
-problem or puzzle to solve during the course of the interview. This has very
-little to do with the skills an engineer uses daily. No engineer is meeting a
-person they have never worked with before, being presented with a potentially
-tricky programming puzzle, and being asked to solve it on the spot under time
-pressure.
-
-Software engineering is a marathon, not a sprint. Most non-trivial problems
-involve hours of effort before any code is even written. Hours spent developing
-familiarity with the problem's concepts, reading about how others have solved
-this problem in the past, developing your own opinions and approach to the
-problem, and experimenting with the code. No LeetCode question that can be
-solved in 15-20 minutes can evaluate how well a candidate will do on a problem
-that takes days or weeks to solve.
-
-Additionally, this process creates very unfair results for the candidate.
-
-- They are given a problem the interviewer already know the answer to
-- They are forced to work under time pressure that normally doesn't exist
-- They have someone hovering over them while they are trying to work
-- If they are nervous this environment could make it impossible for them to
-  concentrate
-- They could be self-conscious about their own abilities even though they are
-  very capable at what they do
-
-This process is problematic since it can reject candidates even though they were
-the best person for the job.
 
 ## References
 

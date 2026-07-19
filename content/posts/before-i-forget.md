@@ -1,8 +1,6 @@
 ---
 title: Before I Forget
 date: 2025-10-14
-tags:
-  - life
 ---
 
 It's been a minute since i have made one of these and honestly it's been due to

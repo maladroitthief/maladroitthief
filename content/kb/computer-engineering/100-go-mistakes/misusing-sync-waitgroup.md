@@ -1,11 +1,6 @@
 ---
 title: Misusing sync.WaitGroup
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Misusing sync.WaitGroup
 
 `sync.WaitGroup` is a mechanism to wait for `n` operations to complete.
 

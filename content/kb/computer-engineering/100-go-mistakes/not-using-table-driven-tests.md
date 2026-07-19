@@ -1,11 +1,6 @@
 ---
 title: Not using table driven tests
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using table driven tests
 
 ## Mistake
 

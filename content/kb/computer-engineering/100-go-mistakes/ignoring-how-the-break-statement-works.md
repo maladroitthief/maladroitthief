@@ -1,11 +1,6 @@
 ---
 title: Ignoring how the break statement works
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring how the break statement works
 
 A `break` statement is commonly used to terminate the execution of a loop.
 

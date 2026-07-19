@@ -1,9 +1,6 @@
 ---
 title: New job
 date: 2024-11-02
-tags:
-  - work
-  - gamedev
 ---
 
 First week at the new job has been incredibly refreshing. Everyone is so nice

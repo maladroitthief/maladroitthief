@@ -1,11 +1,6 @@
 ---
 title: Unexpected side effects of using slice append
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Unexpected side effects of using slice append
 
 When slicing another slice, the newly created slice will have a pointer
 referencing the backing array of the original slice. This means that any

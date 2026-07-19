@@ -1,0 +1,11 @@
+---
+title: Operating system
+---
+
+An operating system is an interface between a program and the hardware. It
+handles input and output operations for the computer and allocates storage and
+memory.
+
+## References
+
+- [Computer-Organization-and-Design](/kb/reference/computer-organization-and-design)

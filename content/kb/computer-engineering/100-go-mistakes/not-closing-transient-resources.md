@@ -1,11 +1,6 @@
 ---
 title: Not closing transient resources
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not closing transient resources
 
 ## HTTP body
 

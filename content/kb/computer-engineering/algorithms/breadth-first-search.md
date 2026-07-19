@@ -1,11 +1,6 @@
 ---
 title: Breadth first search
-layout: idea
-tags:
-  - algorithms
 ---
-
-# Breadth first search
 
 Breadth-first search is a graph traversal algorithm that starts at a node and
 travels to all other nodes at the current depth before moving further into the

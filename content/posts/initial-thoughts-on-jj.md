@@ -1,8 +1,6 @@
 ---
 title: Initial Thoughts on JJ
 date: 2025-08-18
-tags:
-  - engineering
 ---
 
 I've been working with JJ daily for about two months now and I have some initial

@@ -1,11 +1,6 @@
 ---
 title: Not being careful with goroutines and loop variables
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not being careful with goroutines and loop variables
 
 ## Mistake
 

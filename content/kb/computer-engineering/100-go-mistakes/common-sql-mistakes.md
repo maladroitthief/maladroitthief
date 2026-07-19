@@ -1,11 +1,6 @@
 ---
 title: Common SQL mistakes
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Common SQL mistakes
 
 ## sql.Open
 

@@ -1,11 +1,6 @@
 ---
 title: Ignoring the impact of using pointer elements in range loops
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring the impact of using pointer elements in range loops
 
 When not being careful, it's possible to reference the wrong elements with range
 loops.

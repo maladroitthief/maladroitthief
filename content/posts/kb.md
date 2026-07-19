@@ -1,8 +1,6 @@
 ---
 title: KB
 date: 2024-10-25
-tags:
-  - kb
 ---
 
 Not much gamedev progress in the last week, it's been a bit hectic since I'm

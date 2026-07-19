@@ -1,11 +1,6 @@
 ---
 title: Being puzzled about channel size
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Being puzzled about channel size
 
 An unbuffered channel, or a synchronous channel, has a size of zero and blocks.
 A buffered channel, or asynchronous channel, has some size and is unblocking

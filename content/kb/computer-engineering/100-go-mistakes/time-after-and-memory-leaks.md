@@ -1,11 +1,6 @@
 ---
 title: time.After and memory leaks
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# time.After and memory leaks
 
 `time.After(time.Duration)` is the concurrent alternative for
 `time.Sleep(time.duration)`.

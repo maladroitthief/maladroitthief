@@ -1,11 +1,6 @@
 ---
 title: Under-optimized string concatenation
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Under-optimized string concatenation
 
 
 

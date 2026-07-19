@@ -1,11 +1,6 @@
 ---
 title: Misusing trim functions
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Misusing trim functions
 
 ## Mistake
 

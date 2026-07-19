@@ -1,11 +1,6 @@
 ---
 title: Queue
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Queue
 
 A linear data structure that is modified by adding elements to one end and
 removing them from the other.

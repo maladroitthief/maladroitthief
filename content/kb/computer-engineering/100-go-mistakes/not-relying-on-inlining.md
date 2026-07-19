@@ -1,11 +1,6 @@
 ---
 title: Not relying on inlining
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not relying on inlining
 
 Inlining is replacing a function call with the body of the function, usually
 done automatically by the compiler. In Go, this can be observed by running

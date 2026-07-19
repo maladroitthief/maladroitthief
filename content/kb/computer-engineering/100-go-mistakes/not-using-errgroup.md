@@ -1,11 +1,6 @@
 ---
 title: Not using errgroup
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using errgroup
 
 ## Mistake
 

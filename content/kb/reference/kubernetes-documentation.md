@@ -1,10 +1,6 @@
 ---
-tags:
-  - reference
-aliases:
+title: Kubernetes-documentation
 ---
-
-# Kubernetes-documentation
 
 Author: CNCF
 Source: https://kubernetes.io/docs/home/

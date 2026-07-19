@@ -1,11 +1,6 @@
 ---
 title: Ignoring when to wrap an error
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring when to wrap an error
 
 ## Mistake
 

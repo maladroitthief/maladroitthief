@@ -1,11 +1,6 @@
 ---
 title: Relational Data Design
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Relational Data Design
 
 ## Representing complex data in a computational framework
 

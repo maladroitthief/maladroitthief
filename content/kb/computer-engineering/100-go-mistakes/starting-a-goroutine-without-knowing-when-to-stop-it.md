@@ -1,11 +1,6 @@
 ---
 title: Starting a goroutine without knowing when to stop it
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Starting a goroutine without knowing when to stop it
 
 ## Mistake
 

@@ -1,11 +1,6 @@
 ---
 title: Panicking
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Panicking
 
 Once a panic is triggered, it continues up the call stack until either the
 current goroutine has returned or panic is caught with recover.

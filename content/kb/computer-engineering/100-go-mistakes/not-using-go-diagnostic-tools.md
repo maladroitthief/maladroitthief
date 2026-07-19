@@ -1,11 +1,6 @@
 ---
 title: Not using Go diagnostic tools
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using Go diagnostic tools
 
 ## Profiling
 

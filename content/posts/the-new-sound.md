@@ -1,8 +1,6 @@
 ---
 title: The New Sound
 date: 2024-12-20
-tags:
-  - life
 ---
 
 The last year was a pretty great year for music. From familiar favorites like

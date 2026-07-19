@@ -1,11 +1,6 @@
 ---
 title: Not taking into account instruction-level parallelism
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not taking into account instruction-level parallelism
 
 Instruction level parallelism (ILP) is performance optimization that allows the
 parallelization of a sequence of instructions. Instead of being a sum of the

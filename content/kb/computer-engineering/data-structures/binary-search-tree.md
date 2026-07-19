@@ -1,11 +1,6 @@
 ---
 title: Binary search tree
-layout: idea
-tags:
-  - data-structures
 ---
-
-# Binary-search-tree
 
 A binary-search tree (BST) is a [Binary-tree](/kb/computer-engineering/binary-tree) that
 gives all the elements in order when it is traversed in order. In-order

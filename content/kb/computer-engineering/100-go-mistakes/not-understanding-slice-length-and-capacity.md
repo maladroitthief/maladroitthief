@@ -1,11 +1,6 @@
 ---
 title: Not understanding slice length and capacity
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding slice length and capacity
 
 A slice is an array that can grow or shrink in size. In Go, a slice is backed by
 an array, and handles the logic of adding new elements if the backing array is

@@ -1,11 +1,6 @@
 ---
 title: Binary
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# Binary
 
 Binary is a base 2 number system that is used in machine code. It can be handy
 at times to transform data to binary or to preform bit-wise operations.

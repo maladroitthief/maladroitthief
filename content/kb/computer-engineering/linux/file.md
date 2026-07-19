@@ -1,0 +1,13 @@
+---
+title: File
+---
+
+In Linux, everything is considered a file. General files can be anything from
+text, audio, pictures, etc. These can be in text or binary format. Additionally
+there are [Directory](/kb/computer-engineering/directory) files that serve as
+containers for other files. Finally device files are any IO devices connected to
+the computer such as disks, keyboards, etc.
+
+## References
+
+- [Command-Line-A-modern-introduction](/kb/reference/command-line-a-modern-introduction)

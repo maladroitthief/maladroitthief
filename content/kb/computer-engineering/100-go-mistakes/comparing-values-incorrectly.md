@@ -1,11 +1,6 @@
 ---
 title: Comparing values incorrectly
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Comparing values incorrectly
 
 Comparing values in Go, using `==` is not always appropriate.
 

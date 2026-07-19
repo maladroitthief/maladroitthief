@@ -1,0 +1,19 @@
+---
+title: pwd
+---
+
+pwd is print working directory.
+
+```bash
+pwd
+# /home/maladroitthief/
+```
+
+## Related
+
+The environment variables `$PWD` and `$OLDPWD` can be used to reference the
+current and previous working directory of the current session.
+
+## References
+
+- [Command-Line-A-modern-introduction](/kb/reference/command-line-a-modern-introduction)

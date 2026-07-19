@@ -1,11 +1,6 @@
 ---
 title: Being confused about nil and the empty slice
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Being confused about nil and the empty slice
 
 A slice is empty if it's length is zero. A slice is nil if it is nil.
 

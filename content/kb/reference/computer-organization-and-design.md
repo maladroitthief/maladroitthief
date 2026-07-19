@@ -1,11 +1,6 @@
 ---
 title: Computer Organization and Design
-layout: reference
-tags:
-  - reference
 ---
-
-# Computer-Organization-and-Design
 
 |           |                                 |
 | --------- | ------------------------------- |

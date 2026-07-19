@@ -1,11 +1,6 @@
 ---
 title: alias
-layout: idea
-tags:
-  - linux
 ---
-
-# alias
 
 Creating an alias for complex commands
 

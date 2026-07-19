@@ -1,11 +1,6 @@
 ---
 title: Not making slice copies correctly
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not making slice copies correctly
 
 The builtin `copy` function allows copying elements from one slice to another.
 

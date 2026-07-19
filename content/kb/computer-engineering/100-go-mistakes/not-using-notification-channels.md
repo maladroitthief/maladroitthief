@@ -1,11 +1,6 @@
 ---
 title: Not using notification channels
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using notification channels
 
 ## Mistake
 

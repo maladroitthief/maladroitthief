@@ -1,11 +1,6 @@
 ---
 title: Thinking concurrency is always faster
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Thinking concurrency is always faster
 
 
 ## Mistake

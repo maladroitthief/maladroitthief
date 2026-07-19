@@ -1,11 +1,6 @@
 ---
 title: Not understanding floating points
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding floating points
 
 The concept of floating point numbers was created to solve the problem that
 integer values cannot represent fractional numbers. Floating point numbers are

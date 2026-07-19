@@ -1,19 +1,19 @@
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 @theme {
-	--color-base:    light-dark('#faf4ed', '#232136');
-	--color-surface: light-dark('#fffaf3', '#2a273f');
-	--color-overlay: light-dark('#f2e9e1', '#393552');
-	--color-muted:   light-dark('#9893a5', '#6e6a86');
-	--color-subtle:  light-dark('#797593', '#908caa');
-	--color-text:    light-dark('#464261', '#e0def4');
+	--color-base:    light-dark(#faf4ed, #232136);
+	--color-surface: light-dark(#fffaf3, #2a273f);
+	--color-overlay: light-dark(#f2e9e1, #393552);
+	--color-muted:   light-dark(#9893a5, #6e6a86);
+	--color-subtle:  light-dark(#797593, #908caa);
+	--color-text:    light-dark(#464261, #e0def4);
 
-	--color-red:     light-dark('#b4637a', '#eb6f92');
-	--color-orange:  light-dark('#d7827e', '#ea9a97');
-	--color-yellow:  light-dark('#ea9d34', '#f6c177');
-	--color-green:   light-dark('#56949f', '#9ccfd8');
-	--color-blue:    light-dark('#286983', '#3e8fb0');
-	--color-violet:  light-dark('#907aa9', '#c4a7e7');
+	--color-red:     light-dark(#b4637a, #eb6f92);
+	--color-orange:  light-dark(#d7827e, #ea9a97);
+	--color-yellow:  light-dark(#ea9d34, #f6c177);
+	--color-green:   light-dark(#56949f, #9ccfd8);
+	--color-blue:    light-dark(#286983, #3e8fb0);
+	--color-violet:  light-dark(#907aa9, #c4a7e7);
 }
 
 @utility prose {

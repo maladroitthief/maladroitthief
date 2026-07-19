@@ -1,8 +1,6 @@
 ---
 title: Square wave to the dome
 date: 2024-10-16
-tags:
-  - gamedev
 ---
 
 Nothing quite as sobering as taking a 440 hz square wave right to the dome.

@@ -1,11 +1,6 @@
 ---
 title: Creating utility packages
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Creating utility packages
 
 ## Mistake
 

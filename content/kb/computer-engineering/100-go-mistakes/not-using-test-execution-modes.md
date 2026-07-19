@@ -1,11 +1,6 @@
 ---
 title: Not using test execution modes
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not using test execution modes
 
 ## Parallel
 

@@ -1,11 +1,6 @@
 ---
 title: Using a filename as a function input
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Using a filename as a function input
 
 ## Mistake
 

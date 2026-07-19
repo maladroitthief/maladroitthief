@@ -1,8 +1,6 @@
 ---
 title: End of 2024
 date: 2024-12-31
-tags:
-  - life
 ---
 
 The year is nearly over and that means it's time for a new word. I can't

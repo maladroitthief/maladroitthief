@@ -1,11 +1,6 @@
 ---
 title: Forgetting about sync.Cond
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Forgetting about sync.Cond
 
 
 ## Mistake

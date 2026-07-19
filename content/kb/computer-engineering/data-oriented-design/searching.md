@@ -1,11 +1,6 @@
 ---
 title: Searching
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Searching
 
 The greatest performance gain for searching is not having to search. If the
 search is unnecessary then it should be avoided. Search helpers like binary

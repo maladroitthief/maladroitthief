@@ -1,8 +1,6 @@
 ---
 title: Focus
 date: 2024-12-08
-tags:
-  - life
 ---
 
 I saw a YouTube video earlier this week that made the claim that people today

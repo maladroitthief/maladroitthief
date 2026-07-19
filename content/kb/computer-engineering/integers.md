@@ -1,11 +1,6 @@
 ---
 title: Interger literals
-layout: idea
-tags:
-  - computer-engineering
 ---
-
-# Integer literals
 
 Integer literals are numbered values that do not have a fractional component or
 an exponent.

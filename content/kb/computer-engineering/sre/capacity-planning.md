@@ -1,11 +1,6 @@
 ---
 title: Capacity planning
-layout: idea
-tags:
-  - sre
 ---
-
-# Capacity-planning
 
 Capacity planning is ensuring there is sufficient capacity and redundancy to
 serve projected future demand. It is critical to take steps ensuring that

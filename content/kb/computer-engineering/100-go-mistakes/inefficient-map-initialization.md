@@ -1,11 +1,6 @@
 ---
 title: Inefficient map initialization
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Inefficient map initialization
 
 In Go a map is an unordered key value pair where all keys are distinct.
 

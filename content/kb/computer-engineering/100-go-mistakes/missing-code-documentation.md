@@ -1,11 +1,6 @@
 ---
 title: Missing code documentation
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Missing code documentation
 
 Every exported element should be documented.
 

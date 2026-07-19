@@ -1,11 +1,6 @@
 ---
 title: Project disorganization
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Project disorganization
 
 Organizing a project in Go can be challenging. There is no enforced structure or
 schema which can lead to code bases that are difficult to navigate.

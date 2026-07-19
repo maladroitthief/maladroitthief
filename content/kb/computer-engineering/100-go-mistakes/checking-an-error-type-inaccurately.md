@@ -1,11 +1,6 @@
 ---
 title: Checking an error type inaccurately
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Checking an error type inaccurately
 
 
 ## Mistake

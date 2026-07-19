@@ -1,11 +1,6 @@
 ---
 title: Making wrong assumptions during map iterations
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Making wrong assumptions during map iterations
 
 There are two primary misconceptions with map iterations in Go.
 

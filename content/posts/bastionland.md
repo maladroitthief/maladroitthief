@@ -1,8 +1,6 @@
 ---
 title: Bastionland
 date: 2025-07-18
-tags:
-  - life
 ---
 
 - I finally got my physical copy of Mythic Bastionland in that mail and it's

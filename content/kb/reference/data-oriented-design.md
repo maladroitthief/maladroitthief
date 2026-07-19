@@ -1,11 +1,6 @@
 ---
 title: Data-Oriented Design
-layout: reference
-tags:
-  - reference
 ---
-
-# Data-Oriented Design
 
 |               |                                                                                 |
 | ------------- | ------------------------------------------------------------------------------- |

@@ -1,11 +1,6 @@
 ---
 title: Site Reliability Engineering
-layout: reference
-tags:
-  - sre
 ---
-
-# Site Reliability Engineering
 
 |               |                                                                    |
 | ------------- | ------------------------------------------------------------------ |

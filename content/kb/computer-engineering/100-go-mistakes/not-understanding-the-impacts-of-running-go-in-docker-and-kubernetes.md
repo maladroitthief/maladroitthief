@@ -1,11 +1,6 @@
 ---
 title: Not understanding the impacts of running Go in Docker and Kubernetes
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not understanding the impacts of running Go in Docker and Kubernetes
 
 It is important to understand the implications of running Go in
 Docker/Kubernetes to prevent common situations such as CPU throttling. The

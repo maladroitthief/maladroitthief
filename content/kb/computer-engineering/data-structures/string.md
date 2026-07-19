@@ -1,11 +1,6 @@
 ---
 title: String
-layout: idea
-tags:
-  - data-structures
 ---
-
-# String
 
 Strings are character arrays and share a lot of similarities with
 [arrays](/kb/computer-engineering/array) as shown in their relative time

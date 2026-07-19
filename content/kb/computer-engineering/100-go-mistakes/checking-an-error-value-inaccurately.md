@@ -1,11 +1,6 @@
 ---
 title: Checking an error value inaccurately
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Checking an error value inaccurately
 
 ## Mistake
 

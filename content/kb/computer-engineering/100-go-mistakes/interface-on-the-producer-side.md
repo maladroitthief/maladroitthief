@@ -1,11 +1,6 @@
 ---
 title: Interface on the producer side
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Interface on the producer side
 
 Deciding where to implement an interface is a pretty common mistake. An
 interface defined in the same package as the concrete implementation is referred

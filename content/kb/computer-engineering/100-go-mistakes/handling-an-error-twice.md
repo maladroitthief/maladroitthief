@@ -1,11 +1,6 @@
 ---
 title: Handling an error twice
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Handling an error twice
 
 ## Mistake
 

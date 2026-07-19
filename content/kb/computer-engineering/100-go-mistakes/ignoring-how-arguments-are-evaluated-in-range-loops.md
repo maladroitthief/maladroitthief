@@ -1,11 +1,6 @@
 ---
 title: Ignoring how arguments are evaluated in range loops
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Ignoring how arguments are evaluated in range loops
 
 When using a range loop, the provide expression is evaluated once.
 

@@ -1,11 +1,6 @@
 ---
 title: Neglecting integer overflows
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Neglecting integer overflows
 
 An integer overflow occurs when an arithmetic operation creates a value outside
 the range that can be represented in bytes. In Go an integer overflow or

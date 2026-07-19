@@ -1,11 +1,6 @@
 ---
 title: QEC Method
-layout: idea
-tags:
-  - idea
 ---
-
-# QEC Method of Note Taking
 
 QEC note taking is a method described by [Cal Newport][1] in the book
 [student][2] which stands for **question**, **evidence**, and **conclusion**. It

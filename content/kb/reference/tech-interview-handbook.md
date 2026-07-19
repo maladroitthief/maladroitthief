@@ -1,11 +1,6 @@
 ---
 title: Tech Interview Handbook
-layout: reference
-tags:
-  - reference
 ---
-
-# Tech Interview Handbook
 
 |               |                                                       |
 | ------------- | ----------------------------------------------------- |

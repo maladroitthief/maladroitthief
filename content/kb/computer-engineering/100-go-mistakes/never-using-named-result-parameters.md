@@ -1,11 +1,6 @@
 ---
 title: Never using named result parameters
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Never using named result parameters
 
 ## Mistake
 

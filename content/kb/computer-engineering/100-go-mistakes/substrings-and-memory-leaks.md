@@ -1,11 +1,6 @@
 ---
 title: Substrings and memory leaks
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Substrings and memory leaks
 
 ## Mistake
 

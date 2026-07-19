@@ -1,9 +1,6 @@
 ---
 title: Moderation
 date: 2024-11-17
-tags:
-  - life
-  - gamedev
 ---
 
 I have been trying to be more disciplined about different aspects of my life

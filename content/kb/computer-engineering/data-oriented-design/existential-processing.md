@@ -1,11 +1,6 @@
 ---
 title: Existential Processing
-layout: idea
-tags:
-  - data-oriented-design
 ---
-
-# Existential Processing
 
 Existential processing attempts to provide a way to remove unnecessary querying
 about whether or not to process data. For example, in most software it is common

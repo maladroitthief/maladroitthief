@@ -1,11 +1,6 @@
 ---
 title: Writing inaccurate benchmarks
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Writing inaccurate benchmarks
 
 ## Not resetting or pausing the timer
 

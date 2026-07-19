@@ -1,11 +1,6 @@
 ---
 title: Inaccurate string iteration
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Inaccurate string iteration
 
 ## Mistake
 

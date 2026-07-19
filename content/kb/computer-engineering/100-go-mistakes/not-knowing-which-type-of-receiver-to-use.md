@@ -1,11 +1,6 @@
 ---
 title: Not knowing which type of receiver to use
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Not knowing which type of receiver to use
 
 In Go, you can have either a pointer or a value receiver.
 

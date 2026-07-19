@@ -1,11 +1,6 @@
 ---
 title: Unintended side effects with named result parameters
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Unintended side effects with named result parameters
 
 ## Mistake
 

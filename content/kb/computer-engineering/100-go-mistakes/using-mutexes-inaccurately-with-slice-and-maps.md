@@ -1,11 +1,6 @@
 ---
 title: Using mutexes inaccurately with slices and maps
-layout: idea
-tags:
-  - 100-go-mistakes
 ---
-
-# Using mutexes inaccurately with slices and maps
 
 ## Mistake
 
