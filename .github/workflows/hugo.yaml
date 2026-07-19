@@ -114,13 +114,16 @@ jobs:
 
       - name: Build
         run: |
-          echo "Building the project..."
+          npx @tailwindcss/cli \
+            -i ./themes/mal/static/styles/input.css \
+            -o ./themes/mal/static/styles/output.css
           hugo build \
             --gc \
             --minify \
             --cleanDestinationDir \
             --printI18nWarnings \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
+          npx pagefind --site public
 
       - name: Cache save
         uses: actions/cache/save@v6
